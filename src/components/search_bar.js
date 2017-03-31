@@ -11,17 +11,20 @@ export default class SearchBar extends Component{
     this.state = {term:''};
   }
 
-
-
   render(){
     return(
       <div>
       <input className="form-control"
              placeholder="Type your search here..."
              value={this.state.term}
-             onChange={(event) => this.setState({term:event.target.value})}
+             onChange={(event) => this.onInputChange(event.target.value)}
       />
       </div>
     )
+  }
+
+  onInputChange(term){
+    this.setState({term});
+    this.props.onSearchTermChange(term);
   }
 }

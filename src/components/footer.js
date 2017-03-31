@@ -5,7 +5,7 @@ const Footer = ()=>{
     <footer className="site-footer">
       <p>
         <span className="text-center">
-        &copy;Copyright {new Date().getFullYear()} |  Alan Fidelino - React Developer
+        &copy; Copyright {new Date().getFullYear()} - Alan Fidelino | ReactJS Developer
         </span>
       </p>
     </footer>

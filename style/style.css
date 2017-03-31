@@ -1,20 +1,22 @@
 html,body{
   height: 100vh;
 }
-.container-fluid{
+.container{
   margin-top: 30px;
-}
-
-#react-tube-logo{
-  width: 150px;
 }
 
 .site-footer{
   padding: 20px;
-  margin: 50px -15px 0px -15px;
+  margin: 50px -130px 0px -130px;
   background: #bebebe;
 }
 
+.site-footer>p{
+  margin:0 auto !important;
+  text-align:center;
+  font-size: .80rem;
+  color: #065880;
+}
 .videos-fetched{
   margin-top: 20px;
 }
@@ -56,4 +58,16 @@ ul{
 
 .list-group-item:hover {
   background-color: #eee;
+}
+
+i.fa.fa-youtube-square{
+  color: #d42150;
+}
+#react-tube-logo-big{
+  padding-bottom:5px;
+  width: 150px;
+}
+#react-tube-logo{
+  width:90px;
+  padding-bottom:15px;
 }
