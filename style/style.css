@@ -1,13 +1,15 @@
 html,body{
   height: 100vh;
+  font-family: 'Roboto', sans-serif;
 }
 .container{
   margin-top: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .site-footer{
   padding: 20px;
-  margin: 50px -130px 0px -130px;
+  margin: 50px -200px 0px -200px;
   background: #bebebe;
 }
 
