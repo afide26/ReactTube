@@ -1,9 +1,9 @@
 # ReactTube
 The sample application is the first course from the React Redux course by Stephen Grider in Udemy
 
-##Application Specifications:
+## Application Specifications:
 
-###Tooling and Modules
+### Tooling and Modules
 
 This application uses some of the basic React Tools like:
 1. React
