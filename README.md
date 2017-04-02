@@ -1,25 +1,14 @@
-# ReduxSimpleStarter
+# ReactTube
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+###Application Specifications###
 
-###Getting Started###
+The sample application is the first course from the React Redux course by Stephen Grider in Udemy
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+####Tooling and Modules#####
+This application uses some of the basic React Tools like:
+1. React
+2. ReactDOM
+3. Babel
+4. Webpack
+5. youtube-api-search
+6. lodash debounce method 
