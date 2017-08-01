@@ -1,7 +1,6 @@
 /node_modules
 bundle.js
 npm-debug.log
-api.js
 # IntelliJ
 *.iml
 /.idea
