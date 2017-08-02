@@ -11,9 +11,6 @@ import ReactTube from './components/logo'
 import Footer from './components/footer'
 import API_KEY from './api.js'
 
-
-
-
 class App extends Component{
   constructor(props){
     super(props)
@@ -52,4 +49,4 @@ class App extends Component{
 }
 
 
-ReactDOM.render(<App/>, document.querySelector('.container-fluid'));
+ReactDOM.render(<App/>, document.querySelector('.container'));

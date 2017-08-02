@@ -14,11 +14,12 @@ export default class SearchBar extends Component{
   render(){
     return(
       <div>
-      <input className="form-control"
-             placeholder="Type your search here..."
-             value={this.state.term}
-             onChange={(event) => this.onInputChange(event.target.value)}
-      />
+        <input className="form-control"
+               placeholder="Type your search here..."
+               value={this.state.term}
+               onChange={(event) => this.onInputChange(event.target.value)}
+               ref="searchName"
+        />
       </div>
     )
   }

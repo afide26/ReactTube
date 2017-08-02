@@ -6,11 +6,15 @@ html,body{
 body{
   margin-bottom: 50px;
 }
-.container-fluid{
+.container{
   margin-top: 30px;
   font-family: 'Roboto', sans-serif;
 }
 
+#inspiration{
+  text-align: right;
+  font-size: .75rem;
+}
 .site-footer{
   padding: 20px;
   margin: 50px -200px 0px -200px;
@@ -68,12 +72,28 @@ ul{
 
 i.fa.fa-youtube-square{
   color: #d42150;
+  position: relative;
+  top: 5px;
 }
 #react-tube-logo-big{
   padding-bottom:5px;
   width: 150px;
 }
 #react-tube-logo{
-  width:90px;
+  max-width:70px;
   padding-bottom:15px;
+  position: relative;
+  top: 5px;
+}
+
+
+
+@media screen and (max-width: 767px){
+  #greeting{
+    /*font-size: 1.25rem;*/
+    text-align: center;
+  }
+  i.fa.fa-youtube-square{
+    color: #d42150;
+  }
 }
